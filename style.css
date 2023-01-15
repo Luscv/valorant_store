@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-image: url(https://images.unsplash.com/photo-1483401757487-2ced3fa77952?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1173&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-bottom: 50px;
+}
+
+nav{
+    width: 30%;
+    height: 7vmin;
+    background-color: rgba(100, 100, 100, 0.3);
+    display: flex;
+    
+    transform: perspective(10px) rotateX(-2deg);
+}
+
+.menu{
+    transform: perspective(10px) rotateX(2deg);
+    display: flex;
+    flex-direction: row;
+    margin: auto; 
+    gap: 15px; 
+    
+}
+
+.options{
+    height: 7vmin;
+    padding: 12px 0;
+}
+
+.play{
+    background-color: rgb(200, 0, 0);
+    transform: perspective(10px) rotateX(-4deg);
+    padding: 0 50px;
+    
+}
+
+.play > h2{
+    transform: perspective(10px) rotateX(4deg);
+    padding-top: 5px;
+}
+
+.coin-group, span, section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.coin-group{
+    padding-right: 50px;
+    padding-left: 15%;
+}
+
+.coins{
+    margin-left: 70px;
+    gap: 10px;
+}
+
+span{
+    gap: 5px;
+}
+
+p{
+    font-weight: 100;
+    font-size: small;
+}
+
+.banner-group{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    background-image: url(https://cdn.oneesports.gg/cdn-data/2023/01/Valorant_Araxys_Skin_Bundle-1024x576.webp);
+    background-size: cover;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+.banner-group, .banner{
+    height: 70vh;
+    width: 1000px;
+}
+
+.banner-info{
+    margin: 10px;
+}
+
+.timers{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.time-left{
+    color:rgb(255, 255, 160);
+}
+
+h1{
+    font-size: 50px;
+}
+
+.banner-info > h2{
+    font-weight: 100;
+}
+
+.buy{
+    position: absolute;
+    right: 15%;
+    bottom: 20%
+}
+
+button{
+    background: linear-gradient(90deg, rgba(137,245,246,1) 0%, rgba(68,191,188,1) 61%);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+    padding: 7px 50px;
+    border: .5px solid grey;
+    border-radius: 2px;
+}
